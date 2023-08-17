@@ -1,0 +1,177 @@
+
+element.style {
+  overflow: visible;
+  height: initial;
+}
+body {
+  margin-top: 84px;
+  font-size: 15px;
+  line-height: 1.65em;
+  letter-spacing: .5px;
+  color: #EE4037;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-rendering: geometricPrecision;
+  font-weight: 400;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.notice {
+  width: 100%;
+  height: 5%;
+  background: #EE4037;
+  color: black;
+  z-index: 9999;
+  font-family: 'Quicksand' sans-serif;
+  letter-spacing: 5px;
+  font-size: .75em;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.main-notice {
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.section-one {
+  margin-top: 150px;
+  margin-left: 200px;
+  width: 500px;
+  float: left;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.section-two {
+  margin-top: 150px;
+  margin-left: 450px;
+  float: left;
+  text-align: center;
+  background-color: white;
+  color: #f5680b;
+}
+
+.section-three {
+  background-color: #FBF8F2;
+  float: left;
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.section-three h2, h3, h4 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.section-four {
+  margin-top: 0px;
+}
+
+.section-five {
+  background-color: #FBF8F2;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+.section-five h2, h4 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.section-six {
+  background-color: #FBF8F2;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+.section-six h2, h4 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.section-seven {
+  background-color: #D5D5D5;
+  float: left;
+  height: 900px;
+  width: 33.3%;
+}
+
+.section-eight {
+  background-color: #D5D5D5;
+  float: left;
+  height: 900px;
+  width: 33.3%;
+}
+
+.section-nine {
+  background-color: #D5D5D5;
+  float: left;
+  height: 900px;
+  width: 33.3%;
+}
+
+.section-ten {
+  background-color: #FBF8F2;
+  float: left;
+  width: 50%;
+  height: 800px;
+}
+
+.section-eleven {
+  background-color: #FBF8F2;
+  float: left;
+  width: 50%;
+  height: 800px;
+}
+
+element.style {
+  transition: opacity 300ms linear 300ms;
+  visibility: visible;
+  display: unset;
+  opacity: 1;
+}
+
+button#squire-book-button {
+  z-index: 9999999;
+  border: none;
+  font-family: SF Pro Display, Helvetica, Arial, sans-serif;
+  background: #EE4037;
+  box-shadow: 0px 16px 24px -8px #EE4037;
+  border-radius: 8px;
+  color: #EE4037;
+  width: 158px;
+  height: 64px;
+  transition: opacity 300ms linear;
+  cursor: pointer;
+  padding: 0;
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+}
+
+.section-twelve {
+  float: left;
+  width: 50%;
+  height: 650px;
+  background-color: #EE4037;
+}
+
+iframe {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.section-thirteen {
+  float: left;
+  width: 50%;
+  height: 650px;
+  background-color: black;
+}
